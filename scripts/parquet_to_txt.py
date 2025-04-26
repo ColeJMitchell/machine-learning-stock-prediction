@@ -7,4 +7,4 @@ for index, row in df.iterrows():
     ticker = row['ticker']
     date = row['created_utc']
     with open('../data/updated_tickers.txt', 'a') as f:
-        f.write(f"{ticker} / {date} \n")
+        f.write(f"{ticker}/{date} \n")
