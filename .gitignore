@@ -1,5 +1,5 @@
 .env
-data/
+# data/
 venv/
 plots/
 NLTK_DATA/
