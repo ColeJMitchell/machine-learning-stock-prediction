@@ -66,7 +66,6 @@ https://github.com/user-attachments/assets/804e38a0-81fd-4d67-a802-059461bee602
 #### Overview of sentiment analysis:
 https://github.com/user-attachments/assets/47c3e3bf-1c93-4f0e-8f75-b10799cd7f80
 
-
 ### Initial Analysis
 Some very simple initial analysis is used to provide a basic understanding of the aquired data prior to moving forward with this project. This analysis show that while data collection was performed effectively, the attribution of industry or financial identifiers was essentially impossible given the very limited resources and time frame of this project. That is about 4 weeks during the spring of 2025.
 
