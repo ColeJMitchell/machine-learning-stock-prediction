@@ -1,13 +1,5 @@
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
 name: Deploy Jekyll with GitHub Pages dependencies preinstalled
-
-# Add a theme
-theme: minimal
-
-# Decorations
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
   
 on:
   # Runs on pushes targeting the default branch
