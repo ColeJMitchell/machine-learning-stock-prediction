@@ -62,7 +62,7 @@ Within this project, data aquisition was aimed at collecting submissions and com
 
 #### Overview of data collection:
 <video width="320" height="240" controls loop="" autoplay="">
-  <source src="https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/main/videos/SentimentAnalysisNotebookOverview.mp4">
+  <source src="https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/main/videos/SentimentAnalysisNotebookOverview.mp4" type="video/mp4>
 </video>
 
 #### Overview of data collection:
