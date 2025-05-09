@@ -60,10 +60,11 @@ Whether the raw data sources are included in the public repository or are genera
 ## Developement Structure
 Within this project, data aquisition was aimed at collecting submissions and comments from r/wallstreet bets. With this data, external LLMs among other techniques are used to attemp attributing some public stock ticker or industry code for every collected data element. Next, we additionally employ sentiment analysis over the elements of this collected corpus. With sentiments, dates, and reference to financial elements, we can employ a strategy to reinforce pretrained financial models with publicly available sentiment.
 
-[https://github.com/user-attachments/assets/c20b8bdf-d8b8-4360-8f3b-f3d961f56d32](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/main/videos/DataCollectionNotebookOverview.mp4)
+#### Overview of data collection:
+/home/bengr/ProgrammingGlobal/GitHub/machine-learning-stock-prediction/videos/DataCollectionNotebookOverview.mp4
 
-https://github.com/user-attachments/assets/94f5e936-03b9-479e-b18d-574bdf93e96d
-
+#### Overview of sentiment analysis:
+/home/bengr/ProgrammingGlobal/GitHub/machine-learning-stock-prediction/videos/SentimentAnalysisNotebookOverview.mp4
 ### Initial Analysis
 Some very simple initial analysis is used to provide a basic understanding of the aquired data prior to moving forward with this project. This analysis show that while data collection was performed effectively, the attribution of industry or financial identifiers was essentially impossible given the very limited resources and time frame of this project. That is about 4 weeks during the spring of 2025.
 
