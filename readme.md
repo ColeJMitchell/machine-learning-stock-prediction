@@ -61,7 +61,7 @@ Whether the raw data sources are included in the public repository or are genera
 Within this project, data aquisition was aimed at collecting submissions and comments from r/wallstreet bets. With this data, external LLMs among other techniques are used to attemp attributing some public stock ticker or industry code for every collected data element. Next, we additionally employ sentiment analysis over the elements of this collected corpus. With sentiments, dates, and reference to financial elements, we can employ a strategy to reinforce pretrained financial models with publicly available sentiment.
 
 #### Overview of data collection:
-<video width="320" height="240" controls loop="" autoplay="" style="text-align: center;" markdown="1">
+<video controls style="text-align: center;" markdown="1">
   <source src="https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/main/videos/SentimentAnalysisNotebookOverview.mp4" type="video/mp4">
 </video>
 
