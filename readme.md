@@ -1,5 +1,5 @@
 # Machine Learning Stock Prediction
-- Author(s): Cole Mitchel, Ava Ginsberg, and Benjamin Gregory
+- Author(s): Cole Mitchell, Ava Ginsberg, and Benjamin Gregory
 - Date: 2025-05-02
 
 ## Overview
