@@ -21,16 +21,16 @@ These environmental attributes are retrieved prior to collecting reddit submissi
 ### Notebook and Python Script Structure.
 | Filename (`./<filename>`) | Purpose | Details |
 |---|---|---|
-| `scripts/ticker_classifier.py` | | |
-| `scripts/parquet_to_txt.py` | | |
-| `scripts/manual_verification.py` | | |
-| `data_collection.ipynb` | Collect and generate data from r/wallstreetbets for further analysis and use | |
-| `general_analysis.ipynb` | Simple exploration of data collected from r/wallstreetbets | |
-| `model_evaluation.ipynb` | Evaluate the model trained in `stock_predictor.ipynb` with test stocks and simulation | |
-| `sentiment_analysis.ipynb` | Provide sentiment analysis scores for data collected from r/wallstreetbets | |
-| `stock_predictor.ipynb` | Create initial stock prediction model through time series data | |
-| `ticker_attribution.ipynb` | Exploration of ticker attribution for data from r/wallstreetbets | |
-| `readme.md` | Markdown file for project overview | |
+| `scripts/ticker_classifier.py` |  | In raw text or csv format. |
+| `scripts/parquet_to_txt.py` |  |  |
+| `scripts/manual_verification.py` |  |  |
+| `data_collection.ipynb` | Collect and generate data from r/wallstreetbets for further analysis and use |  |
+| `general_analysis.ipynb` | Simple exploration of data collected from r/wallstreetbets |  |
+| `model_evaluation.ipynb` | Evaluate the model trained in `stock_predictor.ipynb` with test stocks and simulation |  |
+| `sentiment_analysis.ipynb` | Provide sentiment analysis scores for data collected from r/wallstreetbets |  |
+| `stock_predictor.ipynb` | Create initial stock prediction model through time series data |  |
+| `ticker_attribution.ipynb` | Exploration of ticker attribution for data from r/wallstreetbets |  |
+| `readme.md` | Markdown file for project overview |  |
 | `requirements.txt`| Python package requirements and installation | Python3.12.* |
 
 ### Data Sources and Structure
@@ -38,7 +38,7 @@ Whether the raw data sources are included in the public repository or are genera
 
 | Filename (`./data/<filename>`) | Source/Input Reference (`./<filename>`) | Usage | Desc |
 |---|---|---|---|
-| `kaggle-reddit-wsb.parquet` | `data_collection.ipynb` |  | In raw text or csv format. |
+| `kaggle-reddit-wsb.parquet` | `data_collection.ipynb` |  |  |
 | `merged_reddit_wsb.parquet` | `data_collection.ipynb` |  | This is an unused artifact from mismatched naming. |
 | `merged-reddit-wsb.parquet` | `data_collection.ipynb` |  |  |
 | `nasdaq_tickers.parquet` | External |  |  |
