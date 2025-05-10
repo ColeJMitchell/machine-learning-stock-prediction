@@ -3,7 +3,7 @@
 - Date: 2025-05-02
 
 ## Overview
-_
+This project aims to explore multiple machine learning techniques, frameworks, and algorithms introduced in the curriculum for Computer Science 424: Introduction to Machine Learning at Lafayette College. In this repository, multiple machine learning strategies are employed while modeling the closing costs of public stocks for on US market. After developing a simple LSTM-based neural net architecture, we attempt to improve on this model by expanding architecture and feature selection. The developements are made by incorporating financial sentiment analysis derived from the reddit page r/wallstreetbets.
 
 ## Organization
 ### Usage and Setup
@@ -36,26 +36,26 @@ These environmental attributes are retrieved prior to collecting reddit submissi
 ### Data Sources and Structure
 Whether the raw data sources are included in the public repository or are generated throughout the usage, notice that there are numerous data files included in the `./data/` directory. These files are generated as checkpoints, throughout the modeling process. Description of the data files, origins, and usage are listed below. 
 
-| Filename (`./data/<filename>`) | Source/Input Reference (`./<filename>`) | Usage | Desc |
-|---|---|---|---|
-| `kaggle-reddit-wsb.parquet` | `data_collection.ipynb` |  |  |
-| `merged_reddit_wsb.parquet` | `data_collection.ipynb` |  | This is an unused artifact from mismatched naming. |
-| `merged-reddit-wsb.parquet` | `data_collection.ipynb` |  |  |
-| `nasdaq_tickers.parquet` | External |  |  |
-| `reddit_wsb.csv` | `data_collection.ipynb` |  |  |
-| `sp500_companies.csv` | External |  |  |
+| Filename (`./data/<filename>`) | Source/Reference (`./<filename>`) | Details |
+|---|---|---|
+| `kaggle-reddit-wsb.parquet` | `data_collection.ipynb` |  |
+| `merged_reddit_wsb.parquet` | `data_collection.ipynb` | This is an unused artifact from mismatched naming. |
+| `merged-reddit-wsb.parquet` | `data_collection.ipynb` |  |
+| `nasdaq_tickers.parquet` | External |  | 
+| `reddit_wsb.csv` | `data_collection.ipynb` |  | 
+| `sp500_companies.csv` | External |  |
 | `posts-with-tickers.parquet` | External |  |
-| `wallstreetbets-comment-collection-wss.parquet` | `sentiment_analysis.ipynb` |  |  |
-| `wallstreetbets-comment-collection.parquet` | `data_collection.ipynb` |  |  |
-| `wallstreetbets-collection-wss.parquet` | `sentiment_analysis.ipynb` |  |  |
-| `wallstreetbets-collection.parquet` | `data_collection.ipynb` |  |  |
-| `kaggle-reddit-wsb.parquet` | `data_collection.ipynb` |  |  |
-| `reddit_wsb.txt` | `data_collection.ipynb` |  | WSB Data Dump from Kaggle Source |
-| `test_tickers.txt` | External |  |  |
-| `tickers.txt` | External |  |  |
-| `updated_tickers.txt` | `scripts/parquet_to_txt.py` |  |  |
-| `test_stocks/<Stock Ticker>.csv` | External | `./model_evaluation.ipynb` | Recent stock data used for model test cases. Downloaded from NASDAQ Site. |
-| `stock_prediction.h5` | Model saved in google colab from `./stock_predictor.ipynb` |  |  |
+| `wallstreetbets-comment-collection-wss.parquet` | `sentiment_analysis.ipynb` |  | 
+| `wallstreetbets-comment-collection.parquet` | `data_collection.ipynb` |  | 
+| `wallstreetbets-collection-wss.parquet` | `sentiment_analysis.ipynb` |  | 
+| `wallstreetbets-collection.parquet` | `data_collection.ipynb` |  | 
+| `kaggle-reddit-wsb.parquet` | `data_collection.ipynb` |  | 
+| `reddit_wsb.txt` | `data_collection.ipynb` | WSB Data Dump from Kaggle Source |
+| `test_tickers.txt` | External |  | 
+| `tickers.txt` | External |  | 
+| `updated_tickers.txt` | `scripts/parquet_to_txt.py` |  | 
+| `test_stocks/<Stock Ticker>.csv` | External | Recent stock data used for model test cases. Downloaded from NASDAQ Site. |
+| `stock_prediction.h5` | Model saved in google colab from `./stock_predictor.ipynb` |  |
 
 ## Developement Structure
 Within this project, data aquisition was aimed at collecting submissions and comments from r/wallstreet bets. With this data, external LLMs among other techniques are used to attemp attributing some public stock ticker or industry code for every collected data element. Next, we additionally employ sentiment analysis over the elements of this collected corpus. With sentiments, dates, and reference to financial elements, we can employ a strategy to reinforce pretrained financial models with publicly available sentiment.
