@@ -68,8 +68,7 @@ https://github.com/user-attachments/assets/804e38a0-81fd-4d67-a802-059461bee602
 #### Overview of sentiment analysis:
 https://github.com/user-attachments/assets/47c3e3bf-1c93-4f0e-8f75-b10799cd7f80
 
-
-### Model Design
-TODO: Fill in by Cole Mitchel.
+### Stock data collection and preprocessing:
+https://github.com/user-attachments/assets/584fa63e-a2d8-42e2-9a4d-6be22e602dee
 ### Model Training
 TODO: Fill in by Cole Mitchel.
