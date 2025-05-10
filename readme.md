@@ -70,5 +70,5 @@ https://github.com/user-attachments/assets/47c3e3bf-1c93-4f0e-8f75-b10799cd7f80
 
 ### Stock data collection and preprocessing:
 https://github.com/user-attachments/assets/584fa63e-a2d8-42e2-9a4d-6be22e602dee
-### Model Training
-TODO: Fill in by Cole Mitchel.
+### Data split and model architecture:
+https://github.com/user-attachments/assets/825df98c-babc-4417-8dca-37b59570d723
