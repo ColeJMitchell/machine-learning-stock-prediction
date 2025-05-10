@@ -19,18 +19,19 @@ KAGGLE_KEY = <Kaggle API key>
 These environmental attributes are retrieved prior to collecting reddit submission and comment data. Note that reddit makes no guarantee regarding consistent rate limits for the public API. In some cases, reddit API access may not be available due to circumstances on their end. Aditionally, the collected reddit data is stored in the `./data/` directory, but may not be available in the public branch for this project. Where the usage of the provided notebooks is concerned, different environemts have been used for the varying objectives of thus project. In many cases, a venv with Python3.12.* was used after downloading required packages via the `./requirements.txt` file. As the developement and exploration of this project has updated over time and will continue to evolve, the reproducabilty of the provided notebooks may be effected by these changes. In most cases, model traing was run through google colab (~2025-05-09) and all other program code was run in the virtual python environment referenced previously via Windows 11 and WSL2 (Ubuntu).
 
 ### Notebook and Python Script Structure.
+
 | Filename (`./<filename>`) | Purpose | Details |
 |---|---|---|
-| `scripts/ticker_classifier.py` | | |
-| `scripts/parquet_to_txt.py` | | |
-| `scripts/manual_verification.py` | | |
-| `data_collection.ipynb` | Collect and generate data from r/wallstreetbets for further analysis and use | |
-| `general_analysis.ipynb` | Simple exploration of data collected from r/wallstreetbets | |
-| `model_evaluation.ipynb` | Evaluate the model trained in `stock_predictor.ipynb` with test stocks and simulation | |
-| `sentiment_analysis.ipynb` | Provide sentiment analysis scores for data collected from r/wallstreetbets | |
-| `stock_predictor.ipynb` | Create initial stock prediction model through time series data | |
-| `ticker_attribution.ipynb` | Exploration of ticker attribution for data from r/wallstreetbets | |
-| `readme.md` | Markdown file for project overview | |
+| `scripts/ticker_classifier.py` |  | In raw text or csv format. |
+| `scripts/parquet_to_txt.py` |  |  |
+| `scripts/manual_verification.py` |  |  |
+| `data_collection.ipynb` | Collect and generate data from r/wallstreetbets for further analysis and use |  |
+| `general_analysis.ipynb` | Simple exploration of data collected from r/wallstreetbets |  |
+| `model_evaluation.ipynb` | Evaluate the model trained in `stock_predictor.ipynb` with test stocks and simulation |  |
+| `sentiment_analysis.ipynb` | Provide sentiment analysis scores for data collected from r/wallstreetbets |  |
+| `stock_predictor.ipynb` | Create initial stock prediction model through time series data |  |
+| `ticker_attribution.ipynb` | Exploration of ticker attribution for data from r/wallstreetbets |  |
+| `readme.md` | Markdown file for project overview |  |
 | `requirements.txt`| Python package requirements and installation | Python3.12.* |
 
 ### Data Sources and Structure
