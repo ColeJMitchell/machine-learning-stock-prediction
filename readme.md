@@ -3,7 +3,7 @@
 - Date: 2025-05-02
 
 ## Overview
-This project aims to explore multiple machine learning techniques, frameworks, and algorithms introduced in the curriculum for Computer Science 424: Introduction to Machine Learning at Lafayette College. In this repository, multiple machine learning strategies are employed while modeling the closing costs of public stocks for on US market. After developing a simple LSTM-based neural net architecture, we attempt to improve on this model by expanding architecture and feature selection. The developements are made by incorporating financial sentiment analysis derived from the reddit page r/wallstreetbets.
+This project aims to explore multiple machine learning techniques, frameworks, and algorithms introduced in the curriculum for Computer Science 424: Introduction to Machine Learning at Lafayette College. In this repository, multiple machine learning strategies are employed while modeling the closing costs of public stocks for on US market. After developing a LSTM-based  architecture, we attempt to prove that machine learning techniques can outperform random investment in stocks. The developements are made by incorporating financial sentiment analysis derived from the reddit page r/wallstreetbets.
 
 ## Organization
 ### Usage and Setup
