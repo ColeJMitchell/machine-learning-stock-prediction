@@ -70,5 +70,9 @@ https://github.com/user-attachments/assets/47c3e3bf-1c93-4f0e-8f75-b10799cd7f80
 
 ### Stock data collection and preprocessing:
 https://github.com/user-attachments/assets/584fa63e-a2d8-42e2-9a4d-6be22e602dee
+
 ### Data split and model architecture:
 https://github.com/user-attachments/assets/825df98c-babc-4417-8dca-37b59570d723
+
+### Model training and testing:
+https://github.com/user-attachments/assets/edbdf418-3c7e-4596-9c6c-7fee7128137c
