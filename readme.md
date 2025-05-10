@@ -59,7 +59,8 @@ Whether the raw data sources are included in the public repository or are genera
 | `stock_prediction.h5` | Model saved in google colab from `./stock_predictor.ipynb` |  |
 
 ## Developement Structure
-Within this project, data aquisition was aimed at collecting submissions and comments from r/wallstreet bets. With this data, external LLMs among other techniques are used to attemp attributing some public stock ticker or industry code for every collected data element. Next, we additionally employ sentiment analysis over the elements of this collected corpus. With sentiments, dates, and reference to financial elements, we can employ a strategy to reinforce pretrained financial models with publicly available sentiment.
+### Data Aquisition
+Within this project, data aquisition was aimed at collecting submissions and comments from r/wallstreet bets. While data collection was performed effectively, the attribution of industry or financial identifiers was essentially impossible given the very limited resources and time frame of this project. That is about 4 weeks during the spring of 2025. With this in mind, supplementary data was downloadde from kaggle. The final collection of reddit submission data ranges from 2020 to 2025 with around 50000 elements. With this data, external LLMs among other techniques are used to attemp attributing some public stock ticker or industry code for every collected data element. Next, we additionally employ sentiment analysis over the elements of this collected corpus. With sentiments, dates, and reference to financial elements, we can employ a strategy to reinforce pretrained financial models with publicly available sentiment.
 
 #### Overview of data collection:
 https://github.com/user-attachments/assets/804e38a0-81fd-4d67-a802-059461bee602
@@ -67,20 +68,8 @@ https://github.com/user-attachments/assets/804e38a0-81fd-4d67-a802-059461bee602
 #### Overview of sentiment analysis:
 https://github.com/user-attachments/assets/47c3e3bf-1c93-4f0e-8f75-b10799cd7f80
 
-### Initial Analysis
-Some very simple initial analysis is used to provide a basic understanding of the aquired data prior to moving forward with this project. This analysis show that while data collection was performed effectively, the attribution of industry or financial identifiers was essentially impossible given the very limited resources and time frame of this project. That is about 4 weeks during the spring of 2025.
-
 
 ### Model Design
 TODO: Fill in by Cole Mitchel.
 ### Model Training
 TODO: Fill in by Cole Mitchel.
-
-## Outcomes
-### Model Analysis
-### Final Review
-
-## Further Exploration
-### Unanswered Questions
-### Shortcomings and resolution
-### Possibilty of Pipeline Developement
