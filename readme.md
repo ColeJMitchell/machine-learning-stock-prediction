@@ -38,7 +38,7 @@ Whether the raw data sources are included in the public repository or are genera
 
 | Filename (`./data/<filename>`) | Source/Input Reference (`./<filename>`) | Usage | Desc |
 |---|---|---|---|
-| `kaggle-reddit-wsb.parquet` | `data_collection.ipynb` |  |  |
+| `kaggle-reddit-wsb.parquet` | `data_collection.ipynb` |  | In raw text or csv format. |
 | `merged_reddit_wsb.parquet` | `data_collection.ipynb` |  | This is an unused artifact from mismatched naming. |
 | `merged-reddit-wsb.parquet` | `data_collection.ipynb` |  |  |
 | `nasdaq_tickers.parquet` | External |  |  |
