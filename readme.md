@@ -1,9 +1,9 @@
 # Machine Learning Stock Prediction
-- Author(s): Cole Mitchel, Ava Ginsberg, and Benjamin Gregory
+- Author(s): Cole Mitchell, Ava Ginsberg, and Benjamin Gregory
 - Date: 2025-05-02
 
 ## Overview
-This project aims to explore multiple machine learning techniques, frameworks, and algorithms introduced in the curriculum for Computer Science 424: Introduction to Machine Learning at Lafayette College. In this repository, multiple machine learning strategies are employed while modeling the closing costs of public stocks for on US market. After developing a simple LSTM-based neural net architecture, we attempt to improve on this model by expanding architecture and feature selection. The developements are made by incorporating financial sentiment analysis derived from the reddit page r/wallstreetbets.
+This project aims to explore multiple machine learning techniques, frameworks, and algorithms introduced in the curriculum for Computer Science 424: Introduction to Machine Learning at Lafayette College. In this repository, machine learning strategies are employed while modeling the closing costs of public stocks for on US market. After developing a LSTM-based architecture, we attempted to prove that machine learning techniques can outperform random investment in stocks. We also tested an open source natural language tool kit model to determine if it would yield more accurate predictions than the LSTM and random strategies.
 
 ## Organization
 ### Usage and Setup
@@ -68,8 +68,11 @@ https://github.com/user-attachments/assets/804e38a0-81fd-4d67-a802-059461bee602
 #### Overview of sentiment analysis:
 https://github.com/user-attachments/assets/47c3e3bf-1c93-4f0e-8f75-b10799cd7f80
 
+### Stock data collection and preprocessing:
+https://github.com/user-attachments/assets/584fa63e-a2d8-42e2-9a4d-6be22e602dee
 
-### Model Design
-TODO: Fill in by Cole Mitchel.
-### Model Training
-TODO: Fill in by Cole Mitchel.
+### Data split and model architecture:
+https://github.com/user-attachments/assets/825df98c-babc-4417-8dca-37b59570d723
+
+### Model training and testing:
+https://github.com/user-attachments/assets/edbdf418-3c7e-4596-9c6c-7fee7128137c
