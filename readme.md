@@ -78,7 +78,7 @@ To evaluate the model, we wrote a custom algorithm to test the LSTM model versus
 
 ## Videos
 ### Project goals and challenges [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/e692b1b6a108eabc829caf21a9d5c02c19da2b24/media/project_problem.mp4):
-https://github.com/user-attachments/assets/089b700b-a8f1-4ef2-89a5-e2473f7f3a7d
+https://github.com/user-attachments/assets/5966b3ad-78ca-48e2-b37f-1d2733c69b96
 
 ### Overview of data collection [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/main/media/DataCollectionNotebookOverview.mp4):
 https://github.com/user-attachments/assets/804e38a0-81fd-4d67-a802-059461bee602
