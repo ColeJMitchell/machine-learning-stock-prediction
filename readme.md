@@ -4,7 +4,9 @@
 
 ### Executive Report Link: [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/038bb3b0c84816a3748490b8a81b3b6590714452/Executive%20Report.pdf)
 ### Model Training And Initial Testing Link: [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/8550a789dda467557738e0fce97293f2236bdfec/model_notebooks/stock_predictor.ipynb)
+<a href="https://colab.research.google.com/github/ColeJMitchell/machine-learning-stock-prediction/blob/model_notebooks/model_evaluation.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 ### Model Evaluation Link: [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/8550a789dda467557738e0fce97293f2236bdfec/model_notebooks/model_evaluation.ipynb)
+model_notebooks/model_evaluation.ipynb
 ### Reddit Data Collection Notebook Link: [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/8550a789dda467557738e0fce97293f2236bdfec/data_collection_notebooks/data_collection.ipynb)
 ### Sentiment Analysis Notebook Link: [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/8550a789dda467557738e0fce97293f2236bdfec/data_collection_notebooks/sentiment_analysis.ipynb)
 
