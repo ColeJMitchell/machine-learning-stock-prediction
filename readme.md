@@ -70,7 +70,7 @@ Within this project, data aquisition was aimed at collecting submissions and com
 ## LSTM Model Overview And Architecture
 We chose the long short-term memory architecture over other machine learning architectures because of its ability to to capture and retain long-term dependencies in sequential data. This model was well-suited to our problem, as the previous month's stock prices provide strong predictive signals for the stock's behavior on the target day. We decided to also add several dense layers after the LSTM layers in an attempt to have our model learn additional non-linear features in the stock data. We had one output neuron at the end which returned an estimate for the normalized stock price. It was also feasible to take a binary classification approach, where the output would simply be a prediction of whether the price will go up or down. This was never integrated because we wanted to be able to visually compare the actual test set plot versus the predicted one, which required magnitude from a regression approach. The only requirement to run the notebook (model_notebooks/stock_prediction.ipynb) that contains the code for this model is moving the updated_tickers.txt file from the data folder in the root of the repository to the Google Collab runtime environment.
 
-![Image](https://github.com/user-attachments/assets/6141eee9-7192-4a57-9de9-4c7b635edc41)
+![Image](https://github.com/user-attachments/assets/ea9d8657-fc80-4017-be95-daa586e3b29f)
 
 ## LSTM Model Results
 Model Evaluation (Results):
