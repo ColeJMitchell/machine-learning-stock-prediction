@@ -58,24 +58,24 @@ Whether the raw data sources are included in the public repository or are genera
 | `test_stocks/<Stock Ticker>.csv` | External | Recent stock data used for model test cases. Downloaded from NASDAQ Site. |
 | `stock_prediction.h5` | Model saved in google colab from `./stock_predictor.ipynb` |  |
 
-## Developement Structure
+## Videos
 ### Data Aquisition
 Within this project, data aquisition was aimed at collecting submissions and comments from r/wallstreet bets. While data collection was performed effectively, the attribution of industry or financial identifiers was extremely challenging given the very limited resources and time frame of this project. The data collected spans 4 weeks during the spring of 2025. With this in mind, supplementary data was downloaded from kaggle. The final collection of reddit submission data ranged from 2020 to 2025 with around 50000 elements. With this data, the open source Llama large language model was used to successfully attribute 67 unique stock ticker to the posts. Next, we additionally employed sentiment analysis over the elements of this collected corpus. With sentiments, dates, and reference to financial elements, we devised a strategy to use pretrained sentiment analysis models with the reddit data.
 
-### Project goals and challenges
+### Project goals and challenges [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/e692b1b6a108eabc829caf21a9d5c02c19da2b24/media/project_problem.mp4):
 https://github.com/user-attachments/assets/089b700b-a8f1-4ef2-89a5-e2473f7f3a7d
 
-### Overview of data collection: [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/main/media/DataCollectionNotebookOverview.mp4):
+### Overview of data collection [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/main/media/DataCollectionNotebookOverview.mp4):
 https://github.com/user-attachments/assets/804e38a0-81fd-4d67-a802-059461bee602
 
-### Overview of sentiment analysis: [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/main/media/SentimentAnalysisNotebookOverview.mp4):
+### Overview of sentiment analysis [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/main/media/SentimentAnalysisNotebookOverview.mp4):
 https://github.com/user-attachments/assets/47c3e3bf-1c93-4f0e-8f75-b10799cd7f80
 
-### Stock data collection and preprocessing: [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/main/media/data_collection.mp4):
+### Stock data collection and preprocessing [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/main/media/data_collection.mp4):
 https://github.com/user-attachments/assets/584fa63e-a2d8-42e2-9a4d-6be22e602dee
 
-### Data split and model architecture: [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/main/media/data_sets_and_model_architecture.mp4):
+### Data split and model architecture [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/main/media/data_sets_and_model_architecture.mp4):
 https://github.com/user-attachments/assets/825df98c-babc-4417-8dca-37b59570d723
 
-### Model training and testing: [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/main/media/training_and_testing.mp4):
+### Model training and testing [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/main/media/training_and_testing.mp4):
 https://github.com/user-attachments/assets/edbdf418-3c7e-4596-9c6c-7fee7128137c
