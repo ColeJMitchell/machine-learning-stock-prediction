@@ -2,11 +2,11 @@
 - Author(s): Cole Mitchell, Ava Ginsberg, and Benjamin Gregory
 - Date: 2025-05-02
 
-## Executive Report Link: [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/038bb3b0c84816a3748490b8a81b3b6590714452/Executive%20Report.pdf)
-## Model Training + Initial Testing Link: [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/8550a789dda467557738e0fce97293f2236bdfec/model_notebooks/stock_predictor.ipynb)
-## Model Evaluation Link: [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/8550a789dda467557738e0fce97293f2236bdfec/model_notebooks/model_evaluation.ipynb)
-## Reddit Data Collection Notebook Link: [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/8550a789dda467557738e0fce97293f2236bdfec/data_collection_notebooks/data_collection.ipynb)
-## Sentiment Analysis Notebook Link: [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/8550a789dda467557738e0fce97293f2236bdfec/data_collection_notebooks/sentiment_analysis.ipynb)
+### Executive Report Link: [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/038bb3b0c84816a3748490b8a81b3b6590714452/Executive%20Report.pdf)
+### Model Training And Initial Testing Link: [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/8550a789dda467557738e0fce97293f2236bdfec/model_notebooks/stock_predictor.ipynb)
+### Model Evaluation Link: [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/8550a789dda467557738e0fce97293f2236bdfec/model_notebooks/model_evaluation.ipynb)
+### Reddit Data Collection Notebook Link: [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/8550a789dda467557738e0fce97293f2236bdfec/data_collection_notebooks/data_collection.ipynb)
+### Sentiment Analysis Notebook Link: [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/8550a789dda467557738e0fce97293f2236bdfec/data_collection_notebooks/sentiment_analysis.ipynb)
 
 ## Overview
 This project aims to explore multiple machine learning techniques, frameworks, and algorithms introduced in the curriculum for Computer Science 424: Introduction to Machine Learning at Lafayette College. In this repository, machine learning strategies are employed while modeling the closing costs of public stocks for on US market. After developing a LSTM-based architecture, we attempted to prove that machine learning techniques can outperform random investment in stocks. We also tested an open source natural language tool kit model to determine if it would yield more accurate predictions than the LSTM and random strategies.
@@ -66,6 +66,9 @@ Whether the raw data sources are included in the public repository or are genera
 
 ### Data Aquisition
 Within this project, data aquisition was aimed at collecting submissions and comments from r/wallstreet bets. While data collection was performed effectively, the attribution of industry or financial identifiers was extremely challenging given the very limited resources and time frame of this project. The data collected spans 4 weeks during the spring of 2025. With this in mind, supplementary data was downloaded from kaggle. The final collection of reddit submission data ranged from 2020 to 2025 with around 50000 elements. With this data, the open source Llama large language model was used to successfully attribute 67 unique stock ticker to the posts. Next, we additionally employed sentiment analysis over the elements of this collected corpus. With sentiments, dates, and reference to financial elements, we devised a strategy to use pretrained sentiment analysis models with the reddit data.
+
+## LSTM Model Overview And Architecture
+We chose the long short-term memory architecture over other machine learning architectures because of its ability to to capture and retain long-term dependencies in sequential data. This model was well-suited to our problem, as the previous month's stock prices provide strong predictive signals for the stock's behavior on the target day. We decided to also add several dense layers after the LSTM layers in an attempt to have our model learn additional non-linear features in the stock data. We had one output neuron at the end which returned an estimate for the normalized stock price. It was also feasible to take a binary classification approach, where the output would simply be a prediction of whether the price will go up or down. This was never integrated because we wanted to be able to visually compare the actual test set plot versus the predicted one, which required magnitude from a regression approach. The only requirement to run the notebook (model_notebooks/stock_prediction.ipynb) that contains the code for this model is moving the updated_tickers.txt file from the data folder in the root of the repository to the Google Collab runtime environment.
 
 ## Videos
 ### Project goals and challenges [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/e692b1b6a108eabc829caf21a9d5c02c19da2b24/media/project_problem.mp4):
