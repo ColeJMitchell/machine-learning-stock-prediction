@@ -95,5 +95,5 @@ https://github.com/user-attachments/assets/825df98c-babc-4417-8dca-37b59570d723
 ### Model training and testing [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/main/media/training_and_testing.mp4):
 https://github.com/user-attachments/assets/edbdf418-3c7e-4596-9c6c-7fee7128137c
 
-### Model evaluation:
+### Model evaluation [link](https://www.youtube.com/watch?v=pEzSNc4SH6U):
 [![Watch the video](https://img.youtube.com/vi/pEzSNc4SH6U/0.jpg)](https://www.youtube.com/watch?v=pEzSNc4SH6U)
