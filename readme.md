@@ -69,40 +69,8 @@ Within this project, data aquisition was aimed at collecting submissions and com
 
 ## LSTM Model Overview And Architecture
 We chose the long short-term memory architecture over other machine learning architectures because of its ability to to capture and retain long-term dependencies in sequential data. This model was well-suited to our problem, as the previous month's stock prices provide strong predictive signals for the stock's behavior on the target day. We decided to also add several dense layers after the LSTM layers in an attempt to have our model learn additional non-linear features in the stock data. We had one output neuron at the end which returned an estimate for the normalized stock price. It was also feasible to take a binary classification approach, where the output would simply be a prediction of whether the price will go up or down. This was never integrated because we wanted to be able to visually compare the actual test set plot versus the predicted one, which required magnitude from a regression approach. The only requirement to run the notebook (model_notebooks/stock_prediction.ipynb) that contains the code for this model is moving the updated_tickers.txt file from the data folder in the root of the repository to the Google Collab runtime environment.
-Model: "sequential"
 
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
-┃ Layer (type)                    ┃ Output Shape           ┃       Param # ┃
-┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
-│ lstm (LSTM)                     │ (None, 30, 64)         │        16,896 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ batch_normalization             │ (None, 30, 64)         │           256 │
-│ (BatchNormalization)            │                        │               │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ activation (Activation)         │ (None, 30, 64)         │             0 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ lstm_1 (LSTM)                   │ (None, 32)             │        12,416 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ batch_normalization_1           │ (None, 32)             │           128 │
-│ (BatchNormalization)            │                        │               │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ activation_1 (Activation)       │ (None, 32)             │             0 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ dense (Dense)                   │ (None, 16)             │           528 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ dropout (Dropout)               │ (None, 16)             │             0 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ dense_1 (Dense)                 │ (None, 16)             │           272 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ dropout_1 (Dropout)             │ (None, 16)             │             0 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ dense_2 (Dense)                 │ (None, 1)              │            17 │
-└─────────────────────────────────┴────────────────────────┴───────────────┘
-
- Total params: 30,513 (119.19 KB)
- Trainable params: 30,321 (118.44 KB)
- Non-trainable params: 192 (768.00 B)
-
+![Image](https://github.com/user-attachments/assets/6141eee9-7192-4a57-9de9-4c7b635edc41)
 
 ## Videos
 ### Project goals and challenges [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/e692b1b6a108eabc829caf21a9d5c02c19da2b24/media/project_problem.mp4):
