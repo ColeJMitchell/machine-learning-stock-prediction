@@ -78,28 +78,5 @@ We chose the long short-term memory architecture over other machine learning arc
 Model Evaluation (Results):
 To evaluate the model, we wrote a custom algorithm to test the LSTM model versus the random strategy. We used the same base algorithm for both strategies with slightly different logic to create an accurate measure of performance. The first key simplification for the algorithm was deciding that stocks can only be bought in one hundred dollar increments. The second  simplification was deciding that once a model buys a stock it only sells it at the very last day in the sequence (or when the LSTM model predicts the price will go down to curb losses). If a stock is predicted to go down by the LSTM the selling price for the 100 dollars is reduced proportionally to the stock change. Both the LSTM and random models have the same number of opportunities to buy and sell to maintain precision. After testing both strategies over several trials, we observed that the LSTM on average made eighty dollars more than the random selection of buying and selling options. This method of model evaluation was added in addition to the initial analysis because in a real world setting how much money the model could potentially make is paramount to a company/customer. The code for the model evaluation can be found in model_notebooks/model_evaluation.ipynb. To reproduce our results, the test_stocks directory inside of the data directory must be added to the environment. In addition, the h5 file for the LSTM model inside of the saved_models directory must be added to Collab’s runtime environment.
 
-## Videos
-### Combined Video:
-[![Watch the video](https://img.youtube.com/vi/pEzSNc4SH6U/0.jpg)](https://www.youtube.com/watch?v=ArFrPVoCB2Y)
-
-
-### Project goals and challenges [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/e692b1b6a108eabc829caf21a9d5c02c19da2b24/media/project_problem.mp4):
-https://github.com/user-attachments/assets/5966b3ad-78ca-48e2-b37f-1d2733c69b96
-
-### Overview of data collection [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/main/media/DataCollectionNotebookOverview.mp4):
-https://github.com/user-attachments/assets/804e38a0-81fd-4d67-a802-059461bee602
-
-### Overview of sentiment analysis [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/main/media/SentimentAnalysisNotebookOverview.mp4):
-https://github.com/user-attachments/assets/47c3e3bf-1c93-4f0e-8f75-b10799cd7f80
-
-### Stock data collection and preprocessing [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/main/media/data_collection.mp4):
-https://github.com/user-attachments/assets/584fa63e-a2d8-42e2-9a4d-6be22e602dee
-
-### Data split and model architecture [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/main/media/data_sets_and_model_architecture.mp4):
-https://github.com/user-attachments/assets/825df98c-babc-4417-8dca-37b59570d723
-
-### Model training and testing [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/main/media/training_and_testing.mp4):
-https://github.com/user-attachments/assets/edbdf418-3c7e-4596-9c6c-7fee7128137c
-
-### Model evaluation [link](https://www.youtube.com/watch?v=pEzSNc4SH6U):
-[![Watch the video](https://img.youtube.com/vi/pEzSNc4SH6U/0.jpg)](https://www.youtube.com/watch?v=pEzSNc4SH6U)
+## Video
+[![Watch the video](https://img.youtube.com/vi/pEzSNc4SH6U/0.jpg)](https://www.youtube.com/watch?v=lOEvWvFFTm0)
