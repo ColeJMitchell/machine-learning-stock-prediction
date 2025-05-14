@@ -2,7 +2,7 @@
 - Author(s): Cole Mitchell, Ava Ginsberg, and Benjamin Gregory
 - Date: 2025-05-02
 
-### Executive Report Link: [link](https://github.com/ColeJMitchell/machine-learning-stock-prediction/blob/038bb3b0c84816a3748490b8a81b3b6590714452/Executive%20Report.pdf)
+### Executive Report Link: [link](https://github.com/user-attachments/files/20213875/Executive.Report.pdf)
 ### Model Training And Initial Testing Link: 
 <a href="https://colab.research.google.com/github/ColeJMitchell/machine-learning-stock-prediction/blob/main/model_notebooks/stock_predictor.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 ### Model Evaluation Link: 
